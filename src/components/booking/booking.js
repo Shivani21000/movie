@@ -33,11 +33,7 @@ const Booking = () => {
                     </Link>
                 </BookButton>
             </BookingSection>
-            <MoviePoster>
-                <Wrap>
-                    <img src={movieData[movie_id-1]["poster"]} alt={movieData[movie_id-1]["name"]} />
-                </Wrap>
-            </MoviePoster>
+            
         </Container>
     )
 }
