@@ -23,9 +23,7 @@ const MovieDetails = (props) => {
                     </BookTicket>
                 </Link>
             </Details>
-            <Poster>
-                <MoviePoster src={props.movie.poster} alt={`${props.movie.name} Poster`} />
-            </Poster>
+           
         </Container>
     );
 };
